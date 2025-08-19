@@ -1,0 +1,38 @@
+{
+  "name": "web-component",
+  "version": "1.0.0",
+  "description": "Web Components ",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "web-test-runner --coverage \"test/**/*.test.js\"",
+    "start": "vite",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
+  },
+  "keywords": [
+    "s"
+  ],
+  "author": "Shubham Jain",
+  "license": "ISC",
+  "devDependencies": {
+    "@chromatic-com/storybook": "^4.1.0",
+    "@esm-bundle/chai": "^4.3.4-fix.0",
+    "@storybook/addon-a11y": "^9.1.2",
+    "@storybook/addon-docs": "^9.1.2",
+    "@storybook/addon-vitest": "^9.1.2",
+    "@storybook/web-components-vite": "^9.1.2",
+    "@web/test-runner": "^0.20.2",
+    "@web/test-runner-playwright": "^0.11.1",
+    "chai": "^5.2.1",
+    "jsdom": "^26.1.0",
+    "lit": "^3.3.1",
+    "mocha": "^11.7.1",
+    "playwright": "^1.54.2",
+    "storybook": "^9.1.2",
+    "vite": "^7.1.2",
+    "vitest": "^3.2.4",
+    "@vitest/browser": "^3.2.4",
+    "@vitest/coverage-v8": "^3.2.4"
+  }
+}
