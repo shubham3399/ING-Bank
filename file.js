@@ -14,6 +14,7 @@ class myElement extends LitElement {
     }
 };
 
+
 class displayInputBox extends HTMLElement {
     constructor() {
         super();
